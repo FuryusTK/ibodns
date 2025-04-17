@@ -1,0 +1,70 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+AddType application/x-httpd-php .html .htm
+<Files ".ansdb.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".adb.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".db.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".egg.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".eggziedb.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".anspanel.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files ".logs.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "catch.db">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "update.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "language.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "note.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "_debug_app_url.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "_debug_data1.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "_debug_data2.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "_debug_dns.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "_debug_response.json">
+Order Allow,Deny
+Deny from all
+</Files>

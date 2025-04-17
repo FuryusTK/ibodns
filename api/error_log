@@ -1,0 +1,26 @@
+[15-Oct-2024 20:45:32 America/Sao_Paulo] PHP Notice:  Undefined index: m in /home/apktopco/ibo09temas.apktop.com.br/api/index.php on line 12
+[19-Oct-2024 06:52:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php:11
+Stack trace:
+#0 /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php(11): SQLite3->__construct('./api/.payment_...')
+#1 {main}
+  thrown in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php on line 11
+[19-Oct-2024 06:52:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php:11
+Stack trace:
+#0 /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php(11): SQLite3->__construct('./api/.payment_...')
+#1 {main}
+  thrown in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php on line 11
+[19-Oct-2024 06:58:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php:11
+Stack trace:
+#0 /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php(11): SQLite3->__construct('./api/.payment_...')
+#1 {main}
+  thrown in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php on line 11
+[19-Oct-2024 07:03:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php:11
+Stack trace:
+#0 /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php(11): SQLite3->__construct('./api/.payment_...')
+#1 {main}
+  thrown in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php on line 11
+[19-Oct-2024 07:07:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Exception: Unable to open database: unable to open database file in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php:11
+Stack trace:
+#0 /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php(11): SQLite3->__construct('./api/.payment_...')
+#1 {main}
+  thrown in /home/apktopco/ibo09temas.apktop.com.br/api/pagamento.php on line 11

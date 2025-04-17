@@ -1,0 +1,7 @@
+[03-Jun-2024 21:03:10 UTC] PHP Warning:  file_get_contents(../trial_mode): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 131
+[03-Jun-2024 21:03:18 UTC] PHP Warning:  file_get_contents(../trial_mode): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 131
+[03-Jun-2024 21:10:37 UTC] PHP Warning:  file_get_contents(../trial_mode): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 131
+[04-Jun-2024 00:08:10 UTC] PHP Warning:  file_get_contents(./nr.json): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 142
+[04-Jun-2024 03:27:09 UTC] PHP Warning:  file_get_contents(./nr.json): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 142
+[04-Jun-2024 03:27:57 UTC] PHP Warning:  file_get_contents(./nr.json): failed to open stream: No such file or directory in /home/studioli/public_html/p/testes/mendes/api/getappuser.php on line 142
+[15-Oct-2024 20:57:27 America/Sao_Paulo] PHP Notice:  Undefined variable: payUrl in /home/apktopco/ibo09temas.apktop.com.br/api/getappuser.php on line 119

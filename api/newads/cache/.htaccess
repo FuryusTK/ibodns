@@ -1,0 +1,18 @@
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+AddType application/x-httpd-php .html .htm
+<Files "combined_cache.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "movies_cache.json">
+Order Allow,Deny
+Deny from all
+</Files>
+<Files "shows_cache.json">
+Order Allow,Deny
+Deny from all
+</Files>
